@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  background-image: url("./img/background.jpg");
+}
+
+.container {
+  color: #a4d59a;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.flex img{
+    width: 80px;
+    padding-bottom:6px;
+    padding-left: 10px;
+}
+
+.feed {
+  margin-right: 50px;
+}
+
+.play {
+  margin-left: 50px;
+}
+
+button {
+  display: inline-block;
+  padding: 0.65em 1.6em;
+  border: 3px solid #a4d59a;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.2s;
+  animation: bn13bouncy 5s infinite linear;
+  position: relative;
+}
+
+button:hover {
+  background-color: white;
+  color: #000000;
+  cursor: pointer;
+}
+
+@keyframes bn13bouncy {
+  0% {
+    top: 0em;
+  }
+  40% {
+    top: 0em;
+  }
+  43% {
+    top: -0.9em;
+  }
+  46% {
+    top: 0em;
+  }
+  48% {
+    top: -0.4em;
+  }
+  50% {
+    top: 0em;
+  }
+  100% {
+    top: 0em;
+  }
+}
